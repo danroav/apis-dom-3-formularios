@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Formularios</title> 
+	<meta charset="UTF-8" />
+	<script type="text/js" src = "src/index.js" > </script>
+	<head>
+	<body>	
+	
+		<form id="form1" name="form1" onsubmit="validar()">	
+			Nombre: <input type="text" id="txt1" name="txt1" />
+			Apellidos: <input type="text" id="txt2" name="txt2" />
+			<input type="submit" id="btnEnviar" name="btnEnviar" value="Enviar" />
+		</form>
+		
+		<br>
+		<br>
+
+		<form id="form2" name="form2" method="post" action="#" >
+				<label for="opc11">Opción 1A</label>
+				<input type="radio" id="opc11" name="grupo1" value="OPCION_1A" />
+				<label for="opc12">Opción 1B</label>
+				<input type="radio" id="opc12" name="grupo1" value="OPCION_1B"/>
+				<label for="opc13">Opción 1C</label>
+				<input type="radio" id="opc13" name="grupo1" value="OPCION_1C" /><hr/>
+				<input type="reset" />
+				<input type="submit" id="btnComprobar" name="btnComprobar" value="Comprobar seleccionados" onclick="comprobarSeleccionado();" />
+		</form>
+</body>
+
+</html>
+
+
+<!-- Pregunta G3
+¿Que función cumple el evento invalid?
+a) sirve para desplegar un resumen de los problemas con un formulario al enviarlo 
+b)Invalida el envio del formulario 
+c)evita que se introduzcan elementos invalidos en el formulario
+Respuesta a)
+¿Cual de los siguientes no es un atributo ? 
+a)placeholder 
+b)required 
+c)pattern 
+d)Todas son correctas
+Respuesta d)
+
+Integrantes:
+Luis Gabriel Rueda
+Manuel Antonio Jimenez Gonzales
+Karen Vargas Hoyos
+Braian Alejandro Villegas Lascano
+Pablo Martinez
+David Chipana
+-->
